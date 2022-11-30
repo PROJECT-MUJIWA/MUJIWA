@@ -16,4 +16,4 @@ jobs:
         with:
           webhook_id: '1047609208071258252'
           webhook_token: 'QXt5kyQ-ltFLSlHpxdUM6doLzUywawamZsVch6IdFll6fwutmhM0IPKqbNgV0_efJMg7'
-          status: 'succes'
+          status: 'success'
