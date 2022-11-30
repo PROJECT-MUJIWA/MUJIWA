@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - main
+      - Next
+  pull_request:
+
+jobs:
+  send_embed:
+    runs-on: MW
+    name: Poslat Embed o novém statusu
+
+    steps:
+      - name: Spustit Github Actions Status Embed Action
+        uses: SebastiaanZ/github-status-embed-for-discord@main
+        with:
+          webhook_id: '1047609208071258252'
+          webhook_token: 'QXt5kyQ-ltFLSlHpxdUM6doLzUywawamZsVch6IdFll6fwutmhM0IPKqbNgV0_efJMg7'
+          status: 'succes'
