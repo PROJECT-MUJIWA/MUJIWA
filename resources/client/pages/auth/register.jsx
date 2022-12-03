@@ -1,4 +1,6 @@
+import AuthLayout from '@shared/layouts/authLayout'
+
 export default function RegisterPage()
 {
-    //TODO: Dokončit funkci k renderování Registračního formuláře
+    return <AuthLayout title={'Registrace'}>{{/* TODO: Udělat pak formulář pro registraci */}}</AuthLayout>
 }
