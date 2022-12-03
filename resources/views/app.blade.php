@@ -27,4 +27,5 @@
     <body class="h-full bg-blue-50 dark:bg-slate-900">
         @inertia
     </body>
+    <x-translation />
 </html>
