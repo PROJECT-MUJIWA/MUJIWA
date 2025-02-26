@@ -21,3 +21,7 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/.pnpm-store
+todo.md
+.eslintrc-auto-import.js
+/bootstrap/ssr

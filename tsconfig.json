@@ -1,0 +1,28 @@
+{
+    "extends": ["@vue/tsconfig/tsconfig.json"],
+    "compilerOptions": {
+        "useDefineForClassFields": true,
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "types": ["vite/client"],
+        "allowJs": true,
+        "isolatedModules": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["resources/*"],
+            "@components/*": ["resources/components/*"],
+            "@utils/*": ["resources/utils/*"],
+            "@pages/*": ["resources/pages/*"],
+            "@composables/*": ["resources/composables/*"],
+            "@assets/*": ["resources/assets/*"],
+            "@application/*": ["resources/application/*"],
+            "@type/*": ["resources/types/*"]
+        }
+    },
+    "exclude": ["node_modules"],
+    "include": [
+        "resources/**/*.ts",
+        "resources/**/*.tsx",
+        "resources/**/*.vue",
+        "resources/**/*.d.ts"
+    ]
+}

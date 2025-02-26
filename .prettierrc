@@ -1,0 +1,9 @@
+{
+    "vueIndentScriptAndStyle": true,
+    "semi": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "plugins": ["prettier-plugin-tailwindcss"]
+}
