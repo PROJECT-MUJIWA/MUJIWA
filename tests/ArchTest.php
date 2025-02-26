@@ -3,7 +3,12 @@
 declare(strict_types=1);
 
 /**
- * Nastavení PestPHP na standard code
+ * PestPHP Arch test global
  */
+arch()->preset()->php();
 
-// TODO: Dokončit pak Arch setup jakmile bude vše připravené.
+arch()->preset()->security();
+
+arch('Vyžadovat Strict types')
+    ->expect('App')
+    ->toUseStrictTypes();
