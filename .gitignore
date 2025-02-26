@@ -22,3 +22,6 @@ yarn-error.log
 /.vscode
 /.zed
 /.pnpm-store
+todo.md
+.eslintrc-auto-import.js
+/bootstrap/ssr
